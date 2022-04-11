@@ -45,18 +45,18 @@ var carousel = document.getElementById('carousel'),
         'https://grdnd.github.io/group-project'
     ],
     message = [
-        '', 
-        '', 
-        '', 
-        '', 
-        ''
+        'Full-Stack shopping site where users can login and shop for the cloths they want. This site uses Node.js for the backend, Express.js framework, Sequelize, Server-side API, Integration API, Handlebars for the frontend, CSS, MySQL for the database, Heroku for app deployment.',
+        'Full-Stack blog site where users can post and share their thoughts about many topics with other users. This site uses Node.js for the backend, Handelbars.js for the frontend, MySQL for the database, Sequalize and Express.js as frameworks.',
+        'This is just a backend for database/api. This repo uses Node.js for the backend, MySQL for the database, Sequalize and Express.js as frameworks.',
+        'Full-Stack site where users can create and delete notes. This site uses Node.js for the backend, Routes to display the HTML for the frontend, MySQL for the database, Sequalize and Express.js as frameworks.',
+        'This is a site linked with an API to search for alcoholic beverages using a single ingredeant. This site uses HTML, CSS, JavaScript, and an external API connection.'
     ],
     nextbtn = document.getElementById('nextButton'),
     prevbtn = document.getElementById('prevButton'),
     paginator = document.getElementById('carousel-pagination'),
     pageCounter = 0;
 
-function makeList(arr, arr2, arr3, arr4) {
+function makeList(arr, arr2, arr3, arr4, arr5) {
     var list = document.createElement('ul'),
         tList = document.createElement('ul'),
         pager = document.createElement('ul'),
@@ -79,9 +79,9 @@ function makeList(arr, arr2, arr3, arr4) {
         gitLink.href = arr4[i];
         gitLink.innerHTML = '<i class="fa fa-fw fa-github"></i>';
         // link2.appendChild(gitApp);
-        // gitText.textContent = arr5[i];
+        gitText.textContent = arr5[i];
         head2.textContent = arr3[i];
-        head.append(head2, gitLink, link2)//(head2, gitText, gitLink, link2)
+        head.append(head2, gitText, gitLink, link2)
         link.appendChild(item);
         list.appendChild(link);
         tList.appendChild(head)
@@ -98,7 +98,7 @@ function makeList(arr, arr2, arr3, arr4) {
 
     return list;
 }
-carousel.appendChild(makeList(items, pics, titles, githubRepos));
+carousel.appendChild(makeList(items, pics, titles, githubRepos, message));
 
 function nextSlide() {
     var listItems = document.getElementById('carousel-items'),
