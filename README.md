@@ -1,4 +1,4 @@
-# Portfolio-v.02
+# Portfolio-v.03
 
 ## Description
 This is a portfolio to display my capabilities and projects created and a way to contact me.
