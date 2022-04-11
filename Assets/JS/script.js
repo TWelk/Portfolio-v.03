@@ -38,7 +38,7 @@ var carousel = document.getElementById('carousel'),
         "./Assets/Images/Anonymous Alcoholics.jpg" 
     ],
     items = [
-        'https://twelk.github.io/WeatherDashboard/', 
+        'https://github.com/microjess/project2', 
         'https://welktechblog-app.herokuapp.com/', 
         'https://twelk.github.io/E-CommerceBackEnd/', 
         'https://floating-mesa-65516.herokuapp.com/',
