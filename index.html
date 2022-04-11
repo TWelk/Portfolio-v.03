@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protfolio Version 2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./Assets/CSS/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="myLinks">
+                <a href="https://twelk.github.io/prework-about-me/">More About Me</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="aboutMe">
+        <div class="card">
+            <div class="card__inner">
+                <div class="card__face card__face--front">
+                    <div class="card__content">
+                        <div class="card__header">
+                            <img src="./Assets/Images/JPEG_20200201_222353.jpg" alt="" class="profilePic" />
+                            <h2>Tyler Welker</h2>
+
+                        </div>
+                        <div class="card__body">
+                            <h1 class="skillHeader">Education:</h1>
+                            <div class="cards">
+                                <div class="education">
+                                    <h6>UNIVERSITY CALIFORNIA, IRVINE (2022)</h6>
+                                    <h6>Fullstack Web Development Bootcamp</h6>
+                                    <small>A 24 Unit intensive program focused on gaining technical programming skills in HTML5, CSS3, JavaScript, jQuery, Bootstrap, Node.js, MySQL, MongoDB, Express, Handelbars.js & ReactJS.</small>
+                                </div>
+
+                                <div class="education">
+                                    <h6>International Business College (2010)</h6>
+                                    <h6>Computer Programming Associate Degree</h6>
+                                    <small>A 2 year program focused on skills in Computer Concepts, IT Customer Support, Database Applications, Network Administration, HTML, CSS, C++, C#, Microsoft Applications and more</small>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 id="links">LINKS:</h2>
+                        <section class="social">
+                            <p><a href="https://www.linkedin.com/in/tyler-welker-b5551847/" target="_blank"><i class="fa fa-fw fa-linkedin-square"></i></a></p>
+                            <p><a href="https://github.com/TWelk" target="_blank"><i class="fa fa-fw fa-github"></i></a></p>
+                            <p><a href="https://twitter.com/TylerWelker11" target="_blank"><i class="fa fa-fw fa-twitter"></i></a></p>
+                            <p><a href="mailto:twelker08@gmail.com" alt="email Tyler Welker" title="email me at twelker08@gmail.com"><i class="fa fa-fw fa-solid fa-at"></i></a></p>
+                        </section>
+                        <div class="cards">
+                            <h2 class="more">CLICK HERE</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card__face card__face--back">
+                    <div class="card__content">
+                        <div class="card__header-back">
+                            <section class="resBtn">
+                                <!-- <a href="./Tyler Welker - Resume.pdf"> </a> -->
+                                <h1>THIS IS A PDF LINK TO MY RESUME</h1>
+                                <button id="resLink" type="button">Résumé</button>
+                            </section>
+                            <h1 class="skillHeader">SKILLS:</h1>
+                        </div>
+                        <div class="cards">
+                            <div class="skills">
+                                <h6>Database Applications</h6>
+                                <small>Develops and maintains databases.</small>
+                            </div>
+
+                            <div class="skills">
+                                <h6>Process Improvement</h6>
+                                <small>Develops and updates operating procedures to facilitate smooth functioning of data
+                                    processing operations.</small>
+                            </div>
+
+                            <div class="skills">
+                                <h6>IT Customer Support</h6>
+                                <small>Assist with fixing software issues.</small>
+                            </div>
+
+                            <div class="skills">
+                                <h6>PC Hardware and Diagnostics</h6>
+                                <small>Troubleshoot and ensures that computer equipment is maintained and in proper working order.</small>
+                            </div>
+
+                            <div class="skills">
+                                <h6>Problem Solving</h6>
+                                <small>Consults with appropriate management to ensure resolution of issues.</small>
+                            </div>
+
+                            <div class="skills">
+                                <h6>Teamwork</h6>
+                                <small>Capable of working in both small and large groups and coordinating the workflow to ensure accurate and timely completion of projects</small>
+                            </div>
+                            <h2 class="back">BACK</h2>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p>Full Stack Web Developer entering the Web Engineer industry, looking to work with teams on building new and innovative applications.</p>
+    </section>
+
+    <h1 id="projects">Projects</h1>
+    <br>
+    <h2>CLICK ON THE SLIDE TO TAKE YOU TO THE APPLICATION!!!!!!!!!!!</h2>
+    <div class="container">
+        <button class="carousel__button--left" type="button" id="prevButton"><img src="./Assets/Images/left.png" alt="Left Button"></button>
+        <div id="carousel" class="slideShow">
+            <!-- generated in js -->
+        </div>
+        <button class="carousel__button--right" type="button" id="nextButton"><img src="./Assets/Images/right.png " alt="Right Button "></button>
+        <div class="slideTiltes"></div>
+        <div id="carousel-pagination">
+            <!-- generated in js -->
+        </div>
+        <!-- <div class="button-group"> -->
+
+        <!-- </div> -->
+    </div>
+
+    <div class="CM">
+        <div class="ContactMe" id="contact">
+            <h2>Contact Me</h2>
+
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user-name" placeholder="Marry Samsonight">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="user-email" placeholder="MSamsonight@gmail.com">
+                <label for="message">Phone Number:</label>
+                <input type="tel" id="phone" name="user-phone" placeholder="1-555-867-5309" pattern="1[0-9]{3}[0-9]{3}[0-9]{4}">
+                <label for="message">Message:</label>
+                <textarea name="Message" id="MsgBox" cols="30" rows="10"></textarea>
+                <button type="submit">SEND</button>
+            </form>
+        </div>
+
+        <div class="contactMeFor">
+            <div class="businessCard">
+                <div class="businessCard__inner">
+                    <div class="card__face businessCard__face--front">
+                        <div class="card__content">
+                            <div class="businessCard__header">
+                                <h2>Tyler Welker</h2>
+                                <h2>Location: Indianapolis, IN</h2>
+                                <h2>Phone: (317)646-3023</h2>
+                                <h2>Email: Twelker08@gmail.com</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card__face card__face--back">
+                        <div class="card__content">
+                            <div class="card__header-back">
+                                <section class="businessCard__header-back">
+
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p style="display: block;"><i class="fa fa-fw fa-copyright "></i>Tyler Welker 2022. All rights reserved.</p>
+    </footer>
+
+    <script src="./Assets/JS/script.js "></script>
+</body>
+
+</html>
