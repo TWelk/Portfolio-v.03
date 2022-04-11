@@ -31,7 +31,7 @@ var carousel = document.getElementById('carousel'),
         "https://github.com/grdnd/group-project"
     ],
     pics = [
-        "./Assets/Images/WeatherDashboard.jpg", 
+        "./Assets/Images/Project2.jpg", 
         "./Assets/Images/TechBlog.jpg", 
         "./Assets/Images/E-Commerce.jpg", 
         "./Assets/Images/NoteTaker.jpg",
