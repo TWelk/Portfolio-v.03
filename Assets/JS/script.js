@@ -32,7 +32,7 @@ var carousel = document.getElementById('carousel'),
     ],
     pics = [
         "./Assets/Images/Project2.JPG",
-        "./Assets/Images/TechBlog.JPG",
+        "./Assets/Images/TechBlog.jpg",
         "./Assets/Images/E-Commerce.JPG",
         "./Assets/Images/NoteTaker.JPG",
         "./Assets/Images/Anonymous Alcoholics.jpg" 
