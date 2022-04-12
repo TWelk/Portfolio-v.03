@@ -45,7 +45,7 @@ var carousel = document.getElementById('carousel'),
         'https://grdnd.github.io/group-project'
     ],
     message = [
-        'Full-Stack shopping site where users can login and shop for the cloths they want. This site uses Node.js for the backend, Express.js framework, Sequelize, Server-side API, Integration API, Handlebars for the frontend, CSS, MySQL for the database, Heroku for app deployment.',
+        'Full-Stack shopping site where users can login and shop for the cloths they want. This site uses Node.js for the backend, Express.js framework, Sequelize, Server-side API, Integration API, Handlebars for the frontend, CSS, MySQL for the database, Heroku for app deployment. Note: This is still under development.',
         'Full-Stack blog site where users can post and share their thoughts about many topics with other users. This site uses Node.js for the backend, Handelbars.js for the frontend, MySQL for the database, Sequalize and Express.js as frameworks.',
         'This is just a backend for database/api. This repo uses Node.js for the backend, MySQL for the database, Sequalize and Express.js as frameworks.',
         'Full-Stack site where users can create and delete notes. This site uses Node.js for the backend, Routes to display the HTML for the frontend, MySQL for the database, Sequalize and Express.js as frameworks.',
