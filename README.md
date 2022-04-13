@@ -1,13 +1,17 @@
 # Portfolio-v.03
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description
-This is a portfolio to display my capabilities and projects created and a way to contact me.
+This is a portfolio page displays my skills and education. This displays projects I created and projects I collaberated on. This is a site to showcase me and my abilities and has a PDF of my resume and a way to contact me for any questions or even job opportunities.   
 ## Table of Contents
 - [Functionality](#functionality)
 - [Credits](#credits)
 - [License](#license)
 - [Preview](#preview)
 - [Links](#live-site)
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
 ## Functionality
 - Navbar links lead to:
     - [About Me page](https://twelk.github.io/prework-about-me/)
