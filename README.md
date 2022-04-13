@@ -42,12 +42,12 @@ TWelk
 ## License
 MIT
 ## Screenshots
-- <img src="/Assets/Images/FrontCard.jpg" alt="Front Card" style="height: 100px; width:100px;"/>
-- <img src="/Assets/Images/BackCard.jpg" alt="Back Card" style="height: 100px; width:100px;"/>
-- <img src="/Assets/Images/Projects1.jpg" alt="Project Carousel" style="height: 100px; width:100px;"/>
-- <img src="/Assets/Images/Projects2.jpg" alt="Project Carousel" style="height: 100px; width:100px;"/>
-- <img src="/Assets/Images/Contact Me.jpg" alt="Contact Form" style="height: 100px; width:100px;"/>
-- <img src="/Assets/Images/Contact Me2.jpg" alt="Buisness Card" style="height: 100px; width:100px;"/>
+<img src="/Assets/Images/FrontCard.jpg" alt="Front Card" style="height: 200px; width:200px;"/>
+<img src="/Assets/Images/BackCard.jpg" alt="Back Card" style="height: 100px; width:100px;"/>
+<img src="/Assets/Images/Projects1.jpg" alt="Project Carousel" style="height: 100px; width:100px;"/>
+<img src="/Assets/Images/Projects2.jpg" alt="Project Carousel" style="height: 100px; width:100px;"/>
+<img src="/Assets/Images/Contact Me.jpg" alt="Contact Form" style="height: 100px; width:100px;"/>
+<img src="/Assets/Images/Contact Me2.jpg" alt="Buisness Card" style="height: 100px; width:100px;"/>
 ## Preview
 ![DemoVideo](./Assets/Images/Protfolio-v2.gif)
 
